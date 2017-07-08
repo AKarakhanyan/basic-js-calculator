@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Basic JS calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src ="js/main.js" defer></script>
+</head>
+<body>
+	<div class="calculator-body">
+		<div id = "calculator-display">
+			<input id ="calculator-input" placeholder="..." onkeydown = "if (event.keyCode == 13)
+                        addSymbol(5)"></input>
+		</div>
+			<div class="calculator-row">
+				<button class="calculator-button number" onclick="addNum(1)">1</button>
+				<button class="calculator-button number" onclick="addNum(2)">2</button>
+				<button class="calculator-button number" onclick="addNum(3)">3</button>
+			</div>
+
+			<div class="calcuator-row">
+				<button class="calculator-button number" onclick="addNum(4)">4</button>
+				<button class="calculator-button number" onclick="addNum(5)">5</button>
+				<button class="calculator-button number" onclick="addNum(6)">6</button>
+			</div>
+
+			<div class="calcuator-row">
+				<button class="calculator-button number" onclick="addNum(7)">7</button>
+				<button class="calculator-button number" onclick="addNum(8)">8</button>
+				<button class="calculator-button number" onclick="addNum(9)">9</button>
+			</div>
+
+			<div class="calculator-row">
+				<button class="calculator-button number" onclick="addNum(0)">0</button>
+				<button class="calculator-button symbol" onclick="addSymbol(1)">/</button>
+				<button class="calculator-button symbol" onclick="addSymbol(2)">*</button>
+			</div>
+
+			<div class="calculator-row">
+				<button class="calculator-button symbol" onclick="addSymbol(3)">+</button>
+				<button class="calculator-button symbol" onclick="addSymbol(4)">-</button>
+				<button class="calculator-button" onclick="clearCalculator()">clear</button>
+			</div>
+			<div class="calculator-row">
+				<button class="calculator-button symbol" onclick="addSymbol(5)">=</button>
+			</div>
+			</div>
+		
+		</div>
+	
+</body>
+</html>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

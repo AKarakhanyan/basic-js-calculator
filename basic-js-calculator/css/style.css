@@ -1,0 +1,36 @@
+body {
+  padding-top: 10%;
+}
+.calculator-body {
+	width: 200px;
+	display: block;
+	margin: auto;
+	background: blue;
+	padding: 30px;
+}
+
+#calculator-display {
+	display: block;
+	background: lightgrey;
+	height: 0px;
+	text-align: center;
+  
+}
+
+.calculator-row {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.calculator-button {
+	display: inline;
+	background: orange;
+	padding: 5px;
+	margin: 10px;
+	/*margin: 5px 10px;/*/
+}
+
+.clear {
+	margin: 0;
+}
